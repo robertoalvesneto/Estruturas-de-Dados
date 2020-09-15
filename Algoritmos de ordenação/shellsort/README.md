@@ -6,6 +6,6 @@
 <p>Essas ordenações fazem o vetor se aproximar do caso ideal para o insertionsort.</p>
 <p>A eficiência dessa estrategia está diretamente ligada a equação matemática que irá determinar o valor de H. Se, por exemplo, H sempre for valores múltiplos ( 8, 4, 2, 1, por exemplo) ele estará sempre comparando as mesmas posições. A melhor estratégia é a de  KNU, que determina o algoritmo:</p>
 <pre>
-h(s) =	| 1,		se s = 1<br>
-        | 3h(s-1)+1,	se s>1
+h(s) =	| 1,		se s = 1
+        | 3h(s-1)+1,	se s > 1
 </pre>
